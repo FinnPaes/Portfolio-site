@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     },
 
     runtimeConfig: {
+        PASTEBIN_CLIENT_ID: process.env.PASTEBIN_CLIENT_ID,
         PASTEBIN_USERNAME: process.env.PASTEBIN_USERNAME,
         PASTEBIN_PASSWORD: process.env.PASTEBIN_PASSWORD,
         DISCORD_WEBHOOK: process.env.DISCORD_WEBHOOK
