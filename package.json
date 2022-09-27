@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  },
+  "dependencies": {
+    "@nuxt/image-edge": "^1.0.0-27706054.395f7ae",
+    "node-mailjet": "^5.1.1",
+    "pastebin-api": "^5.1.4",
+    "sweetalert2": "^11.4.32"
+  }
+}
